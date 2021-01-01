@@ -1,15 +1,11 @@
-import React, {useContext} from 'react';
-import { CategoriasContext } from '../context/categoriaContex';
-
+import React from 'react';
 
 const Header = () => {
-
-
     return ( 
-        <header>
-            <h1>Buscador de recetas</h1>
+        <header className="bg-alert">
+            <h1>Busca Recetas de Bebidas</h1>
         </header>
-    );
+     );
 }
  
 export default Header;
